@@ -1,5 +1,5 @@
-import PropertyListing from "@/components/PropertyListing";
-import { styles } from "@/styles/_homestyle";
+import PropertyListing from "../../app-example/components/common/PropertyListingCard";
+import { styles } from "../../styles/propertyCardStyle";
 import { Feather } from "@expo/vector-icons";
 import {
   View,
@@ -10,7 +10,7 @@ import {
   Dimensions,
   TouchableHighlight,
 } from "react-native";
-import { FILTERS, SAMPLE_DATA } from "@/constants/data";
+import { FILTERS, SAMPLE_DATA } from "../../constants/data";
 
 const Home = () => {
   return (
